@@ -17,7 +17,7 @@ Popup.Message: §a[§6Drop§bParty§a] §dItems are dropping! §5Do /spawn to ge
   items!
 Coordinates:
   X: 0
-  "Y": 0
+  Y: 70
   Z: 0
 Items:
 - 57
