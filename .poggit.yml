@@ -2,6 +2,6 @@
 branches:
 - patch-1
 projects:
-  DropParty-LATEST:
+  DropParty:
     path: ""
 ...
