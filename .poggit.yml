@@ -1,6 +1,6 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/ZPlayzMCPE/DropParty
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/provsalt/dropparty
 branches:
-- patch-1
+- master
 projects:
   DropParty:
     path: ""
