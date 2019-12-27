@@ -26,4 +26,5 @@ Items:
 - 41
 ...
 ```
-Note that duration is in seconds and time is how long before drop party starts in minute
+Note that duration is in seconds
+time is how long before drop party starts in minute
