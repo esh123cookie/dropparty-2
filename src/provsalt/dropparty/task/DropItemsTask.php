@@ -31,7 +31,7 @@ class DropItemsTask extends Task {
 		    }
 			$this->getPlugin()->secs++;
 			
-			if($level !== null && $level->isChunkLoaded($this->getPlugin()->cfg["Coordinates"]["X"], $this->getPlugin()->cfg["Coordinates"]["Z"])) {
+			if($level !== null && $level->isChunkLoaded($this->getPlugin()->cfg["Coordinates"]["X"], $this->getPlugin()->cfg["Coordinates"]["Z"]) {
 			  $level->dropItem(new Vector3($this->getPlugin()->cfg["Coordinates"]["X"], $this->getPlugin()->cfg["Coordinates"]["Y"], $this->getPlugin()->cfg["Coordinates"]["Z"]), Item::get($this->getPlugin()->getRandomItem(), 0, mt_rand(1, 5)));
 			} else {
 			  $this->getPlugin()->getLogger()->warning("§cItems could not be dropped. World doesn't exist or is not loaded.");
